@@ -1,5 +1,6 @@
 
 /*-------- TAG SELECTORS --------*/
+
 body {
   color: #40514E;
   font-family: 'Merriweather', serif;
@@ -51,10 +52,6 @@ hr {
   width: 4%;
 }
 
-/*div {
-  background-color: #F6E7D8;
-}*/
-
 /*-------- CLASS SELECTORS --------*/
 
 .top-container {
@@ -96,7 +93,7 @@ hr {
   bottom: 300px;
 }
 
-.skill-row {
+.sit-stay-skill {
   margin: 100px auto 100px auto;
   text-align: left;
   width: 50%;
@@ -105,19 +102,26 @@ hr {
 .sit-stay {
   border-radius: 100%;
   float: left;
-  margin: auto 30px 30px auto;
-  width: 25%;
+  margin: auto 30px auto auto;
+  width: 20%;
+}
+
+.leave-it-skill {
+  margin: 100px auto;
+  text-align: right;
+  width: 50%;
 }
 
 .leave-it {
   border-radius: 100%;
   float: right;
-  margin: auto auto 30px 30px;
-  width: 25%;
+  margin: auto auto auto 30px;
+  width: 20%;
 }
 
-.profile {
+.profile-img {
   border-radius: 100%;
+  width: 20%;
 }
 
 .contact-copy {
@@ -134,8 +138,8 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   color: #EAF6F6;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
